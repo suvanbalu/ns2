@@ -70,7 +70,7 @@ $ns attach-agent $n2 $sinkUDP
 
 $ns connect $udp $sinkUDP
 
-puts "CBR packet size = [$cbr set packet_size_]
+puts "CBR packet size = [$cbr set packet_size_]"
 
 $ns at 1.0 "$cbr start"
 
